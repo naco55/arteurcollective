@@ -21,7 +21,13 @@ export default function Page() {
                     <div className="bg-[#edece8] flex items-center justify-center pt-10">
                         <Image src="/logo-hq2.png" alt="Arteur" width={200} height={200} />
                     </div>
-                    {/*<div className="flex items-center justify-center font-serif font-bold text-4xl pl-10 pt-10">*/}
+                    <div className="flex items-center justify-center py-12">
+                        <Image src="/arteur-name2.png" alt="Arteur-Name" width={400} height={200} />
+                    </div>
+                    <div className="flex items-center justify-center">
+                        <Image src="/arteur-motto.png" alt="Arteur-Motto" width={400} height={200} />
+                    </div>
+                    {/*<div className="flex items-center justify-center font-serif font-bold text-4xl">*/}
                     {/*    Empowering AAPI Creatives.*/}
                     {/*</div>*/}
                 </div>
@@ -32,7 +38,7 @@ export default function Page() {
                     {/*<div className="font-serif text-2xl pt-3">*/}
                     {/*    Arteur Collective champions AAPI creatives and aims to eliminate the stigma of pursuing the arts in AAPI culture. Arteur will foster tight-knit communities by connecting AAPI creatives and supporting their careers.*/}
                     {/*</div>*/}
-                    <div className="card w-98 bg-[#edece8] shadow-xl">
+                    <div className="card w-98 py-10 bg-[#edece8] shadow-xl">
                         <div className="card-body">
                             <div className="card-title font-serif font-bold text-2xl">About</div>
                             <div className="font-serif text-xl pt-8">Arteur Collective champions AAPI creatives and aims to eliminate the stigma of pursuing the arts in AAPI culture. Arteur will foster tight-knit communities by connecting AAPI creatives and supporting their careers</div>
@@ -40,8 +46,8 @@ export default function Page() {
                     </div>
                 </div>
             </div>
-            <div className="pt-10">
-                <InstagramFeed token="IGQVJWZAWlfZAFROSkQ2ME9Bb1BHaE5rZAkk4X3NqM2xjQkRKUzhRM3VfUXVTMkZAGOEJDWkJUeXJWeXJSczlRX2tlUWpDM3dyRlY0cFNidlJEbERMUmtsLXhwMDRwSnRtWFJvWVlEQlRXaTJhcmRkOXlJcwZDZD"  counter="18"/>
+            <div className="pt-10 bg-[#edece8]">
+                <InstagramFeed token="IGQWRQVmh1SFNUd2c4S1U1aFlaY2JWSnNubVJJZAWliYUdWQ1lNM3ZAoQ0YwRlZAFZA3VvZAi1DZAks3TURGc2VSMjV6VklwM0FTOW45dnJ6dXJrS1I2ay0wQzBxWExDTHNvaVdPU0tRazNoR1Q0eWFUYmlRUkV5ZA0RwX2cZD"  counter="18"/>
             </div>
         </div>
     )
