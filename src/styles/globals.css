@@ -9,6 +9,11 @@ body,
 .col {
     height: 80%;
 }*/
+
+.font-trebuchet {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
 .instagram-gallery {
     display: -webkit-box;
     display: flex;

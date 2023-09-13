@@ -5,7 +5,6 @@ import Image from 'next/image'
 import AtrTodo from "@/components/atrTodo";
 import InstagramFeed from "react-ig-feed";
 import 'react-ig-feed/dist/index.css'
-
 //const inter = Inter({ subsets: ['latin'] })
 
 //document.body.style.backgroundColor = "#AA0000";
@@ -31,7 +30,7 @@ export default function Page() {
                     {/*    Empowering AAPI Creatives.*/}
                     {/*</div>*/}
                 </div>
-                <div className="p-4 col-span-1 pt-10 flex items-center justify-center">
+                <div className="p-4 col-span-1 pt-10 flex items-center justify-center pr-10 pl-10">
                     {/*<div className="pr-30 font-serif font-bold text-3xl pt-20">*/}
                     {/*    About*/}
                     {/*</div>*/}
@@ -40,8 +39,13 @@ export default function Page() {
                     {/*</div>*/}
                     <div className="card w-98 py-10 bg-[#edece8] shadow-xl">
                         <div className="card-body">
-                            <div className="card-title font-serif font-bold text-2xl">About</div>
-                            <div className="font-serif text-xl pt-8">Arteur Collective champions AAPI creatives and aims to eliminate the stigma of pursuing the arts in AAPI culture. Arteur will foster tight-knit communities by connecting AAPI creatives and supporting their careers</div>
+                            {/*<div className="card-title font-serif font-bold text-2xl">About</div>*/}
+                            <div className="flex items-center justify-left">
+                                <Image src="/arteur-about.png" alt="Arteur-About" width={100} height={100} />
+                            </div>
+                            {/*<div className="font-serif text-xl pt-8">Arteur Collective is a 501(c)3 nonprofit that champions and celebrates AAPI creatives, while aiming to eliminate the stigma of pursuing the arts common in mamy AAPI culture. Arteur fosters tight-knit communities by connecting AAPI creatives with each other and supporting their careers.</div>*/}
+                            <div className="font-trebuchet text-xl pt-8">Arteur Collective is a 501(c)3 nonprofit that champions and celebrates AAPI creatives, while aiming to eliminate the stigma of pursuing the arts common in mamy AAPI culture. Arteur fosters tight-knit communities by connecting AAPI creatives with each other and supporting their careers.</div>
+
                         </div>
                     </div>
                 </div>
