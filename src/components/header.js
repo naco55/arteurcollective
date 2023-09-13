@@ -31,9 +31,14 @@ export default function Header({ children }) {
                     </ul>
                 </div>
             </div>
+            {/*<div className="navbar-center">*/}
+            {/*    <Link href="/" className="btn btn-circle btn-ghost button-circle">*/}
+            {/*        <Image src="/logo-hq2.png" alt="Arteur" width={30} height={30} />*/}
+            {/*    </Link>*/}
+            {/*</div>*/}
             <div className="navbar-center">
-                <Link href="/" className="btn btn-circle btn-ghost button-circle">
-                    <Image src="/logo-hq2.png" alt="Arteur" width={30} height={30} />
+                <Link href="/" className="btn btn-ghost">
+                    <Image src="/arteur-menu-name.png" alt="Arteur" width={80} height={40} />
                 </Link>
             </div>
             {/*<div className="flex-none">*/}
