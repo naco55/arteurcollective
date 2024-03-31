@@ -3,8 +3,6 @@ import Image from "next/image";
 import { useState } from 'react';
 
 
-
-
 const menuItems = [
     { link: '/', title: 'Home' },
     { link: '/features', title: 'Arteur Features' },

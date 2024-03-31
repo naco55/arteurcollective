@@ -51,7 +51,7 @@ export default function Page() {
                 </div>
             </div>
             <div className="pt-10 bg-[#edece8]">
-                <InstagramFeed token="IGQWRQVmh1SFNUd2c4S1U1aFlaY2JWSnNubVJJZAWliYUdWQ1lNM3ZAoQ0YwRlZAFZA3VvZAi1DZAks3TURGc2VSMjV6VklwM0FTOW45dnJ6dXJrS1I2ay0wQzBxWExDTHNvaVdPU0tRazNoR1Q0eWFUYmlRUkV5ZA0RwX2cZD"  counter="18"/>
+                <InstagramFeed token="IGQWRPLUpJeFFCTTkwX2pYQWdrRkk2cWd0YTVtcTdlQVdZAZADQyaDJMTk9neTBzVGdRLVBOVlp1OU45b0NCRHBaajJ2VUl6WWJKSkVUU3VQNHZAaNEtyMmRKX0ZAXdXAxZA2JIRFE1MEtWcThCeU1pY1ZAvOW50UncyMHMZD"  counter="18"/>
             </div>
         </div>
     )

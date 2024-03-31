@@ -9,7 +9,9 @@ import 'react-ig-feed/dist/index.css'
 import { InstagramGallery } from "instagram-gallery";
 
 export default function Page() {
-    const tk = "IGQWRQVmh1SFNUd2c4S1U1aFlaY2JWSnNubVJJZAWliYUdWQ1lNM3ZAoQ0YwRlZAFZA3VvZAi1DZAks3TURGc2VSMjV6VklwM0FTOW45dnJ6dXJrS1I2ay0wQzBxWExDTHNvaVdPU0tRazNoR1Q0eWFUYmlRUkV5ZA0RwX2cZD";
+    // const tk = "IGQWRQVmh1SFNUd2c4S1U1aFlaY2JWSnNubVJJZAWliYUdWQ1lNM3ZAoQ0YwRlZAFZA3VvZAi1DZAks3TURGc2VSMjV6VklwM0FTOW45dnJ6dXJrS1I2ay0wQzBxWExDTHNvaVdPU0tRazNoR1Q0eWFUYmlRUkV5ZA0RwX2cZD";
+    // const tk = "IGQWRQVkMxOXJ5c1gtbjlZAQ0t5S2pZATXpweDFfM0FGRXBnZA3VHczlUeGk4TFkwNU9kX2ZAoWHRUclA0NnRjdUhCc1ZAZASG00SmtlWGNnd3dZAX2p6TGY2VVhXRGM3SWw1RUNYQVBTaFl3NzRqSmJ0dDFFRW9pQlZAsazgZD"
+    const tk = "IGQWRPLUpJeFFCTTkwX2pYQWdrRkk2cWd0YTVtcTdlQVdZAZADQyaDJMTk9neTBzVGdRLVBOVlp1OU45b0NCRHBaajJ2VUl6WWJKSkVUU3VQNHZAaNEtyMmRKX0ZAXdXAxZA2JIRFE1MEtWcThCeU1pY1ZAvOW50UncyMHMZD"
     return (
         <div className="min-h-screen">
             <div className="h-1/2 bg-[#edece8]">
