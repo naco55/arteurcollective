@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import 'react-ig-feed/dist/index.css'
 import EventCard from './EventCard'
 import Link from 'next/link';
 import Image from "next/image";
