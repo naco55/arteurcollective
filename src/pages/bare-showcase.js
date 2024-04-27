@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Page() {
     return (
-        <div className="bg-[#edece8] pl-12 font-sans">
+        <div className="text-black bg-[#edece8] pl-12 font-sans">
             <div className="pt-8 text-3xl">
                 BARE Showcase
             </div>

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function ContactPage() {
     return (
-        <div className="flex-1 max-w-xl mx-auto p-4 space-y-6">
+        <div className="text-black flex-1 max-w-xl mx-auto p-4 space-y-6">
             <div className="text-center pt-20">
                 <p className="text-lg">
                     <a href="https://www.instagram.com/arteurcollective/">@arteurcollective</a>

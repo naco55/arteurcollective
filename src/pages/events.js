@@ -19,7 +19,7 @@ export default function Page() {
     ]
 
     return (
-        <div className="bg-[#edece8] pl-12">
+        <div className="bg-[#edece8] pl-12 text-black">
             <div className="flex items-left pt-8 text-3xl">
                 Events
             </div>

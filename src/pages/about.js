@@ -5,11 +5,11 @@ export default function Page() {
         <div className="bg-[#edece8] font-sans">
             <div className="flex flex-col md:flex-row">
                 <div className="md:w-1/2 pl-12">
-                    <h1 className="text-3xl pt-8">
+                    <h1 className="text-black text-3xl pt-8">
                         Arteur empowers AAPI creatives.
                     </h1>
                     <div style={{ wordSpacing: '0.2em' }}>
-                        <p className="text-2xl pt-6">
+                        <p className="text-black text-2xl pt-6">
                             <strong>About Arteur</strong>
                         </p>
                         <p className="pt-3" >

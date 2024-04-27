@@ -23,19 +23,19 @@ const ArtistPage = () => {
     return (
         <div className="bg-[#edece8] min-h-screen p-8">
             <div>
-                <h1 className="text-4xl font-bold mb-4">{artist.name}</h1>
-                <h2 className="text-xl font-semibold mb-2">Bio</h2>
+                <h1 className="text-4xl text-black font-bold mb-4">{artist.name}</h1>
+                <h2 className="text-xl text-black font-semibold mb-2">Bio</h2>
                 <p className="mb-4">{artist.bio}</p>
                 {artist.ig && (
                     <a href={artist.ig} target="_blank" rel="noopener noreferrer" className="text-black-600 hover:underline">
-                        <div className="underline">
+                        <div className="underline text-black">
                             Instagram
                         </div>
                     </a>
                 )}
 
-                <h2 className="text-xl font-semibold mb-2 pt-3">Q&A</h2>
-                <p className="whitespace-pre-line">{artist.qa}</p>
+                <h2 className="text-xl text-black font-semibold mb-2 pt-3">Q&A</h2>
+                <p className="whitespace-pre-line text-black">{artist.qa}</p>
 
                 <Link href="/artists" className="text-black-600 hover:underline mt-8 inline-block">
                     <div className="underline">

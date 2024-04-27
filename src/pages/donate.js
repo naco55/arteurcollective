@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Donate() {
     return (
-        <div className="min-h-screen">
+        <div className="text-black min-h-screen">
             <div className="h-1/2 bg-[#edece8]">
                 <div className="grid grid-cols-2 gap-4 pl-10">
                     <div className="bg-[#edece8] p-4 w-30">

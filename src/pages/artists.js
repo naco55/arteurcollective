@@ -30,7 +30,7 @@ export default function ArtistsPage() {
 
     return (
         <div className="bg-[#edece8] p-6">
-            <h1 className="text-2xl font-bold text-center mb-6">Artists</h1>
+            <h1 className="text-2xl text-black font-bold text-center mb-6">Artists</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 {artists.map((artist) => (
                     <ArtistCard key={artist.name} name={artist.name} imageSrc={artist.img1} />
