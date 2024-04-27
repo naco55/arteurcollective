@@ -17,11 +17,8 @@ const ArtistPage = () => {
         return <p>Artist not found.</p>;
     }
 
-    // Now you have access to all the artist data
-    // Use it to render the page
-
     return (
-        <div className="bg-[#edece8] min-h-screen p-8">
+        <div className="text-black bg-[#edece8] min-h-screen p-8">
             <div>
                 <h1 className="text-4xl text-black font-bold mb-4">{artist.name}</h1>
                 <h2 className="text-xl text-black font-semibold mb-2">Bio</h2>
