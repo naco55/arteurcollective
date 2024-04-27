@@ -1,4 +1,3 @@
-import 'react-ig-feed/dist/index.css';
 import Image from "next/image";
 
 export default function Page() {

@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import 'react-ig-feed/dist/index.css'
 import Link from "next/link";
 
 export default function Page() {
