@@ -10,7 +10,7 @@ export default function ArteurApp({ Component, pageProps }) {
         <CurPageLayout>
             <Head>
                 <title>Arteur</title>
-                {/*<meta name="viewport" content="initial-scale=1.0, width=device-width" />*/}
+                <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
             </Head>
             {CurPageLayoutMain ? (
                 <CurPageLayoutMain>

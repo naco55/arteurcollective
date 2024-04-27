@@ -1,5 +1,4 @@
 import Header from './header'
-import Footer from './footer'
 
 export default function Layout({ children }) {
     return (
@@ -10,7 +9,6 @@ export default function Layout({ children }) {
                     <main className="">{children}</main>
                 </div>
             </div>
-            <Footer className="mt-auto"/>
         </div>
     )
 }

@@ -1,42 +1,17 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import AtrTodo from "@/components/atrTodo";
 import Script from "next/script";
 
 const inter = Inter({ subsets: ['latin'] })
-
-const images = [
-    "/donation-photos/a1.png",
-    "/donation-photos/a2.png",
-    "/donation-photos/a3.png",
-    "/donation-photos/a4.png",
-    "/donation-photos/a7.png",
-    "/donation-photos/a5.png",
-];
 
 export default function Donate() {
     return (
         <div className="min-h-screen">
             <div className="h-1/2 bg-[#edece8]">
-                <div className="bg-[#edece8] flex items-center justify-center pl-20 pt-10 pb-5">
-                    <Image src="/arteur-support.png" alt="Arteur-Support" width={800} height={200} />
-                </div>
-            </div>
-            <div className="flex flex-wrap justify-center bg-[#edece8]">
-                {images.map((imgSrc, index) => (
-                    <div
-                        key={index}
-                        className="m-4 transform transition-transform duration-300 hover:scale-110"
-                    >
-                        <Image src={imgSrc} alt={`Image ${index}`} width={210} height={210} />
-                    </div>
-                ))}
-            </div>
-            <div className="h-1/2 bg-[#edece8]">
                 <div className="grid grid-cols-2 gap-4 pl-10">
                     <div className="bg-[#edece8] p-4 w-30">
-                        <div className="card w-98 py-8 bg-[#edece8] shadow-xl">
+                        <div className="card w-98 py-8 bg-[#edece8]">
                             <div className="card-body">
                                 <div className="bg-[#edece8] flex justify-left pb-3">
                                     <Image src="/arteur-donate2.png" alt="Arteur-Donate" width={400} height={200} />
@@ -56,7 +31,7 @@ export default function Donate() {
                         {/*    why you should donate to me because I am the most important person and Serena is perfect :D*/}
                         {/*</div>*/}
                     </div>
-                    <div className="bg-[#edece8] p-4">
+                    <div className="bg-[#edece8] p-4 pt-20">
                         <Script src="https://donorbox.org/widget.js" paypalExpress="false"></Script>
                         <div className="flex items-center justify-center">
                             <iframe src="https://donorbox.org/embed/arteur-collective"

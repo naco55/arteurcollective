@@ -1,33 +1,20 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import Footer from "@/components/footer";
-import AtrTodo from "@/components/atrTodo";
-import Script from "next/script";
+import Head from 'next/head';
+import Link from 'next/link';
 
-const inter = Inter({ subsets: ['latin'] })
-
-export default function Donate() {
-  return (
-      <div className="min-h-screen">
-        <div className="h-1/2 bg-[#edece8]">
-          {/*<div className="flex items-center justify-center">*/}
-          {/*  <Image src="/logo.png" alt="Arteur" width={100} height={100} />*/}
-          {/*</div>*/}
-          <div className="font-bold font-serif text-lg pb-10 pl-20 flex items-center justify-center">
-            Contact
-          </div>
-        </div>
-        <div className="h-1/2 bg-[#edece8]">
-          <div className="grid grid-cols-2 gap-4">
-            <div className="bg-[#edece8] p-4 w-30">
-
+export default function ContactPage() {
+    return (
+        <div className="flex-1 max-w-xl mx-auto p-4 space-y-6">
+            <div className="text-center pt-20">
+                <p className="text-lg">
+                    <a href="https://www.instagram.com/arteurcollective/">@arteurcollective</a>
+                </p>
+                <p className="text-lg mt-4 pt-20 pr-60">
+                    <strong>want to be featured?</strong>
+                </p>
+                <p>
+                    <a href="mailto:arteur.collective@gmail.com" className="underline text-black-600">arteur.collective@gmail.com</a>
+                </p>
             </div>
-            <div className="bg-[#edece8] p-4">
-
-            </div>
-          </div>
         </div>
-      </div>
-  );
+    );
 }
