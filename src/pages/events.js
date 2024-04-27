@@ -24,7 +24,7 @@ export default function Page() {
                 Events
             </div>
             <div className="container pt-10">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3" style={{ gap: '750px' }}>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 pr-12">
                     {events.map((event, index) => (
                         index === 0 ? (
                             <Link href="/bare-showcase" key={index}>
