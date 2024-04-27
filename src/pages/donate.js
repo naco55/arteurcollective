@@ -9,7 +9,7 @@ export default function Donate() {
     return (
         <div className="text-black min-h-screen">
             <div className="h-1/2 bg-[#edece8]">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pl-10">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pl-5 md:pl-10 pr-5 md:pr-10">
                     <div className="bg-[#edece8] p-4 w-30">
                         <div className="card w-98 py-8 bg-[#edece8]">
                             <div className="card-body">
@@ -31,7 +31,7 @@ export default function Donate() {
                         {/*    why you should donate to me because I am the most important person and Serena is perfect :D*/}
                         {/*</div>*/}
                     </div>
-                    <div className="bg-[#edece8] p-4 pt-20">
+                    <div className="bg-[#edece8] p-4 pt-5 md:pt-20">
                         <Script src="https://donorbox.org/widget.js" paypalExpress="false"></Script>
                         <div className="flex items-center justify-center">
                             <iframe src="https://donorbox.org/embed/arteur-collective"
