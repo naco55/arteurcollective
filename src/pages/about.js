@@ -26,7 +26,7 @@ export default function Page() {
                         <p className="pt-3">
                             Arteur is a community that champions AAPI creatives to
                             pursue their craft and seek inspiration from each other.
-                            Arteur stems from the french term "auteur," a filmmaker
+                            Arteur stems from the french term &quot;auteur,&quot; a filmmaker
                             considered the author of the film because of their
                             distinctive artistic approach.
                         </p>
@@ -40,7 +40,7 @@ export default function Page() {
                         <p className="pt-3">
                             <strong>Emily Li</strong> is a management consultant by day and an aspiring writer/
                             director by night. Previously, she graduated from UC Berkeley and
-                            worked on Hulu's marketing team for its shows and films. Through
+                            worked on Hulu&apos;s marketing team for its shows and films. Through
                             Arteur, Emily aspires to increase AAPI representation in media.
                         </p>
                         <p className="pt-3">
