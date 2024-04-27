@@ -11,14 +11,18 @@ const menuItems = [
 
 export default function Header({ children }) {
     return (
-        <div className="navbar bg-[#edece8]">
+        <div className="navbar bg-[#edece8]" >
             <div className="navbar-start pl-10 pt-5">
                 <Link href="/">
-                    <Image src="/logo-hq2.png" alt="Arteur" width={20} height={20} />
+                    <Image src="/logo-hq2.png"
+                           alt="Arteur"
+                           width={20}
+                           height={20}
+                    />
                 </Link>
             </div>
-            <div className="navbar-end pr-10 pt-5">
-                <ul className="flex">
+            <div className="navbar-end pt-5 pr-5 md:pr-20">
+                <ul className="flex space-x-4 md:space-x-8">
                     {menuItems.map((item, index) => (
                         <li key={index} className="ml-10 font-sans text-xl">
                             <Link href={item.link}>
