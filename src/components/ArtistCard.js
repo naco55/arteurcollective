@@ -2,7 +2,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const ArtistCard = ({ name, imageSrc }) => {
-    const artistPageUrl = `/artists/${encodeURIComponent(name.replace(/\s+/g, '-').toLowerCase())}`;
+    // const artistPageUrl = `/artists/${encodeURIComponent(name.replace(/\s+/g, '-').toLowerCase())}`;
+    const artistPageUrl = `/artists/${name.replace(/\s+/g, '-').toLowerCase()}`;
 
     return (
         <div className="text-center">

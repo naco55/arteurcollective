@@ -6,7 +6,8 @@ import Link from "next/link"; // Adjust the path to your artists data
 const ArtistPage = () => {
     const router = useRouter();
     const { artistName } = router.query;
-    const artistSlug = artistName?.replace('-', ' ').toLowerCase();
+    const artistSlug = artistName?.replace(/-/g, ' ').toLowerCase();
+    console.log(artistSlug);
 
     const artist = artists.find(
         (a) => a.name.toLowerCase() === artistSlug
