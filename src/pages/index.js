@@ -15,17 +15,6 @@ export default function Page() {
                     />
                 </Link>
             </div>
-            <div className="w-full bg-[#edece8] pt-6">
-                <Link href="/">
-                    <Image
-                        src="/donation-photos/a2.png"
-                        alt="index-filler"
-                        layout="responsive"
-                        width={1000} // Set the original width of the image
-                        height={100} // Set the original height of the image
-                    />
-                </Link>
-            </div>
         </div>
     )
 }
